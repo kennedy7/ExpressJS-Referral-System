@@ -10,7 +10,6 @@ var usersRouter = require('./routes/users');
 const passport = require('passport');
 const session = require('express-session');
 let flash = require('connect-flash');
-
 var app = express();
 
 // view engine setup
